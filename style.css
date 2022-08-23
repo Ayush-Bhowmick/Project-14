@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&family=Vollkorn:wght@800&display=swap');
+
+:root{
+    --primary:black;
+    --light:#7a7878;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    /* margin-right: 100px; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.nav{
+    margin-top: 20px;
+    text-align: end;
+    margin-right: 90px;
+}
+.items{
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: larger;
+    color: var(--primary);
+}
+.crea{
+    border-top: 2.5px solid var(--primary);
+    width: 320px;
+    position: relative;
+    bottom:10px ;
+    right:60px ;
+}
+.crea h1{
+    color:white ;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 120px;
+    -webkit-text-stroke: 2px var(--primary);
+}
+.tivity{
+    position: relative;
+    bottom: 55px;
+    left: 90px;
+}
+.tivity h1{
+    font-size: 120px;
+}
+.light{
+    position: relative;
+    left: 410px;
+    bottom: 145px;
+    font-size:25px ;
+    color: var(--light);
+    letter-spacing: 0.5px;
+}
+.button{
+    position: relative;
+    bottom: 80px;
+    left: 286px;
+    padding: 12px 90px;
+    background-color: var(--primary);
+    color: white;
+}
+.i1{
+    
+    display: flex;
+    margin-top: 22px;
+    border-radius: 50%;
+    position: relative;
+    bottom:365px;
+    left:680px ;
+}
+.grid2{
+    position: relative;
+    bottom: 230px;
+    right:30px;
+}
+.path{
+    background: transparent;
+    border-radius: 50%;
+    /* width: 35px; */
+}
+.w{
+    position: relative;
+    right: 270px;
+    /* border-left: 2px solid var(--primary); */
+}
+.list{
+    margin-top: 18px;
+    font-size:large;
+    position: relative;
+    list-style-type: none;
+
+}
+.comma{
+    position: relative;
+    bottom: 470px;
+    left: 251px;
+}
+.low{
+    position: relative;
+    bottom: 470px;
+    left: 251px;
+}
+.arrow{
+    position:relative;
+    bottom: 710px;
+    left: 610px; 
+}
+@media screen and (max-width:835px) {
+    .grid{
+        display:flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .nav{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        position: relative;
+        right: 480px;
+    }
+    .nc{
+        display:none;
+    }
+    .crea{
+        position: relative;
+            right: 450px;
+    }
+    .crea h1{
+        position: relative;
+            right: 30px;
+            font-size: 70px;
+            margin-bottom: 25px;
+    }
+    .tivity h1{
+
+        margin-left: -420px;
+        position: relative;
+          font-size: 70px;
+       margin-bottom: 240px;
+    }
+    .button{
+        position: relative;
+        top: -300px;
+        margin-left: -820px;
+        margin-top: -800px;
+        padding: 10px 50px;
+    }
+    .low{
+        position: relative;
+        top: 120px;
+        width: 180px;
+        margin-left:-720px ;
+    }
+    .low h3{
+        text-align: center;
+        position: relative;
+        left: 90px;
+    }
+    .i1{
+        position: relative;
+        bottom: -650px;
+        left: -300px;
+    }
+}
